@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form Upload PDF</title>
+</head>
+<body>
+    <h2>Form Upload File PDF</h2>
+    <form 
+    action="proses-upload.php"
+    method="POST"
+    enctype="multipart/form-data">
+    <p>
+    <label for="file_pdf">Pilih File PDF</label>
+    <input type="file" name="file_pdf" id="file_pdf" accept=".pdf" required>
+    </p>
+    
+    <button type="submit">Upload Sekarang</button>
+    </form>
+</body>
+</html>
